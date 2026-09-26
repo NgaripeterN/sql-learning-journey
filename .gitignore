@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env
+
+# SQL client temp files
+*.sqlite3
+*.db
+
+# Editor files
+.vscode/
