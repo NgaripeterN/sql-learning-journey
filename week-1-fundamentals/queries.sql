@@ -58,7 +58,7 @@ HAVING COUNT(*) > 1;
 
 -- 11. Which country brings in the most total score, and how many
 -- customers does it have? The most complex query this week —
--- combines GROUP BY, an aggregate, sorting, and a row cap.
+
 SELECT country, COUNT(*) AS customer_count, SUM(score) AS total_score
 FROM customers
 GROUP BY country
@@ -67,7 +67,6 @@ LIMIT 3;
 
 -- 12. Bonus: which orders belong to a customer that doesn't exist in
 -- the customers table? (orders.customer_id = 6 has no matching row)
--- A first taste of why joins matter — coming in week 2.
 SELECT *
 FROM orders
 WHERE customer_id NOT IN (SELECT id FROM customers);
