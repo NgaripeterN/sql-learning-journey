@@ -156,4 +156,4 @@ result.
 
 ## Next up
 
-Window functions (`OVER`, `PARTITION BY`, ranking, `LAG` and `LEAD`).
+Window functions: the basics, aggregate windows, ranking, and value functions such as `LAG` and `LEAD`.

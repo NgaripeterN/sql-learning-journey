@@ -15,8 +15,8 @@ Each week has its own folder with the dataset used, the queries I wrote, screens
 | Week | Topics | Status |
 |---|---|---|
 | 1 | Fundamentals: SELECT, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT, DDL/DML basics | ✅ Done |
-| 2 | Filtering Data, SQL Joins (Basics), SQL Joins (Advanced), Set Operators | ⬜ Planned |
-| 3 | SQL Functions, String Functions, Numeric Functions, Date and Time Functions, NULL Functions, Case Statement, Aggregate Functions, Window Functions Basics, Window Aggregate, Window Ranking, Window Value | ⬜ Planned |
+| 2 | Filtering Data, SQL Joins (Basics and Advanced), Set Operators, String Functions, Numeric Functions, Date and Time Functions, NULL Functions, CASE, Aggregate Functions | ✅ [Done](./week-2-intermediate-sql) |
+| 3 | Window Functions Basics, Window Aggregate, Window Ranking, Window Value | ⬜ Planned |
 | 4 | Advanced SQL Techniques, Subqueries, Common Table Expressions (CTE), Views, CTAS and Temp Tables, Compare Advanced Techniques, Stored Procedures, Triggers, Indexes, Execution Plan, Partitions | ⬜ Planned |
 
 ## Why onchain too?
@@ -41,15 +41,15 @@ sql-learning-journey/
 │       ├── postgres/
 │       └── dune/
 │
-├── week-2-filtering-data/
+├── week-2-intermediate-sql/
 │   ├── README.md
 │   └── dataset/
 │
-├── week-3-joins/
+├── week-3/
 │   ├── README.md
 │   └── dataset/
 │
-└── week-4-advanced-joins/
+└── week-4/
     ├── README.md
     └── dataset/
 ```
