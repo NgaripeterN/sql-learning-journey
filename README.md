@@ -17,7 +17,7 @@ Each week has its own folder with the dataset used, the queries I wrote, screens
 | 1 | Fundamentals: SELECT, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT, DDL/DML basics | ✅ Done |
 | 2 | Filtering Data, SQL Joins (Basics and Advanced), Set Operators, String Functions, Numeric Functions, Date and Time Functions, NULL Functions, CASE, Aggregate Functions | ✅ [Done](./week-2-intermediate-sql) |
 | 3 | Window Functions, Window Aggregates, Ranking and Value Functions, Subqueries, CTEs (standalone, multiple, nested and recursive) | ✅ [Done](./week-3) |
-| 4 | Views, CTAS and Temp Tables, Advanced Technique Comparisons, Stored Procedures, Triggers, Indexes, Execution Plans, Partitions | ⬜ Planned |
+| 4 | Views, CTAS and Temp Tables, Advanced Technique Comparisons, Stored Procedures and Functions, Triggers | ✅ [Done](./week-4) |
 
 ## Why onchain too?
 
